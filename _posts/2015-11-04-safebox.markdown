@@ -1,0 +1,16 @@
+---
+author: guidedmissile
+comments: false
+date: 2015-11-04 06:16:52+00:00
+layout: post
+link: https://inlovewithcode.wordpress.com/2015/11/04/safebox/
+slug: safebox
+title: safe box
+wordpress_id: 673
+---
+
+it's a common tendency to wish to have things set in safe location where we and only we can access them.
+
+after my research and understanding one things I have learnt is there is no safe location exists except in our head. after checking movies like inception and mentalist, I found out that there are something which we can't hide.
+
+So you should understand by now that the only way we can keep our secrets clean is to put it under custody to those who don't care but willing to protect them, for example bank locker or your private cloud.

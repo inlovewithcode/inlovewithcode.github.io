@@ -1,0 +1,111 @@
+---
+author: guidedmissile
+comments: true
+date: 2015-08-04 02:02:20+00:00
+layout: post
+link: https://inlovewithcode.wordpress.com/2015/08/04/iaas/
+slug: iaas
+title: AWS, OpenStack and Dockers - IAAS
+wordpress_id: 515
+categories:
+- Unix
+tags:
+- AWS
+- Dockers
+- OpenStack
+---
+
+Here we are going to talk about basic Jargons of IT AS A Service (IAAS) - AWS, OpenStack and Dockers
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/375px-AmazonWebservices_Logo.svg.png)
+
+
+## Amazon Web Services (AWS)
+
+
+In 2006, Amazon Web Services (AWS) began offering IT infrastructure as a services to businesses in the form of web services -- now commonly known as cloud computing. One of the key benefits of cloud computing is the opportunity to replace up-front capital infrastructure expenses with low variable costs that scale with your business. With the Cloud, businesses no longer need to plan for and procure servers and other IT infrastructure weeks or months in advance. Instead, they can instantly spin up hundreds or thousands of servers in minutes and deliver results faster.
+
+Today, Amazon Web Services powers hundred thousands of businesses cloud services in 190 countries, with data center locations from 11 geographical regions across the world.
+
+
+## ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/The_OpenStack_logo.svg/450px-The_OpenStack_logo.svg.png)OpenStack
+
+
+In July 2010, Rackspace Hosting and NASA jointly launched an open-source cloud-software initiative known as OpenStack. The OpenStack project intended to help organizations offer cloud-computing services running on standard hardware.
+
+**OpenStack** is a free and open-source cloud-computing software platform. Users primarily deploy it as an infrastructure-as-a-service (IaaS). The technology consists of a group of interrelated projects that control pools of processing, storage, and networking resources throughout a data center—which users manage through a web-based dashboard, through command-line tools, or through a RESTful API. OpenStack.org released it under the terms of the Apache License.
+
+Some OpenStack components:
+**OpenStack Compute (Nova)** is a cloud computing fabric controller, which is the main part of an IaaS system. It is designed to manage and automate pools of computer resources and can work with widely available virtualization technologies, as well as bare metal and high-performance computing (HPC) configurations.
+
+**OpenStack Image Service (Glance)** provides discovery, registration, and delivery services for disk and server images. Stored images can be used as a template.
+
+**OpenStack Object Storage (Swift)** is a scalable redundant storage system. Objects and files are written to multiple disk drives spread throughout servers in the data center, with the OpenStack software responsible for ensuring data replication and integrity across the cluster.
+
+**OpenStack Dashboard (Horizon)** provides administrators and users a graphical interface to access, provision, and automate cloud-based resources. The design accommodates third party products and services, such as billing, monitoring, and additional management tools.
+
+**OpenStack Identity (Keystone)** provides a central directory of users mapped to the OpenStack services they can access. It acts as a common authentication system across the cloud operating system and can integrate with existing backend directory services like LDAP.
+
+**OpenStack Networking (Neutron, formerly Quantum)** is a system for managing networks and IP addresses. OpenStack Networking ensures the network is not a bottleneck or limiting factor in a cloud deployment, and gives users self-service ability, even over network configurations.
+
+**OpenStack Block Storage (Cinder)** provides persistent block-level storage devices for use with OpenStack compute instances. The block storage system manages the creation, attaching and detaching of the block devices to servers.
+
+**Heat** is a service to orchestrate multiple composite cloud applications using templates, through both an OpenStack-native REST API and a CloudFormation-compatible Query API.
+
+**OpenStack Telemetry Service (Ceilometer)** provides a Single Point Of Contact for billing systems, providing all the counters they need to establish customer billing, across all current and future OpenStack components.
+**Trove** is a database-as-a-service provisioning relational and non-relational database engine.
+
+**Elastic Map Reduce (Sahara)** Sahara aims to provide users with simple means to provision Hadoop clusters by specifying several parameters like Hadoop version, cluster topology, nodes hardware details and a few more.
+
+**Ironic** is an incubated OpenStack project that aims to provision bare metal machines instead of virtual machines.
+
+**Zaqar** is a multi-tenant cloud messaging service for Web developers. It combines the ideas pioneered by Amazon's SQS product with additional semantics to support event broadcasting.
+
+**OpenStack Shared File System Service (Manila)** provides an open API to manage shares in a vendor agnostic framework. Standard primitives include ability to create, delete, and give/deny access to a share and can be used standalone or in a variety of different network environments.
+
+**DNSaaS (Designate)** - DNS as a Service
+
+OpenStack APIs are compatible with Amazon EC2 and Amazon S3 and thus client applications written for Amazon Web Services can be used with OpenStack with minimal porting effort.
+
+![](https://www.docker.com/sites/all/themes/docker/assets/images/logo.png)
+
+Docker is an open platform for developing, shipping, and running applications. Docker is designed to deliver your applications faster. With Docker you can separate your applications from your infrastructure AND treat your infrastructure like a managed application. Docker helps you ship code faster, test faster, deploy faster, and shorten the cycle between writing code and running code.
+
+Docker does this by combining a lightweight container virtualization platform with workflows and tooling that help you manage and deploy your applications.
+
+At its core, Docker provides a way to run almost any application securely isolated in a container. The isolation and security allow you to run many containers simultaneously on your host. The lightweight nature of containers, which run without the extra load of a hypervisor, means you can get more out of your hardware.
+
+Advantages:
+
+
+
+	
+  * Faster delivery of your applications
+
+	
+  * Deploying and scaling more easily
+
+	
+  * Achieving higher density and running more workloads
+
+
+Major components:
+**Docker**: the open source container virtualization platform.
+**Docker Hub**: our Software-as-a-Service platform for sharing and managing Docker containers.
+
+Find more @ https://docs.docker.com/introduction/understanding-docker/
+
+To know more(Sources):
+
+
+
+	
+  * http://aws.amazon.com/about-aws/
+
+	
+  * https://en.wikipedia.org/wiki/OpenStack
+
+	
+  * https://docs.docker.com/introduction/understanding-docker/
+
+

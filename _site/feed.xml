@@ -1,19 +1,373 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-15T21:33:37+05:30</updated><id>http://localhost:4000//</id><title type="html">inlovewithcode</title><subtitle>Personal Notes on Python, Oracel DB, Unix OS, Unix Shell Scripting, DB Schema Designing, Oracle Application Development, Python Data Scie - Pandas, Numpy, Matplotlib, Seaborn, Pandas Profiling, Tensorflow, Jupyter Notebook, Zepplin Notebook,  Apache Spark - PySpark, Scala, Dockers, Kubernetics, Elastic Search.</subtitle><entry><title type="html">test-post</title><link href="http://localhost:4000/2018/03/15/test-post.html" rel="alternate" type="text/html" title="test-post" /><published>2018-03-15T00:00:00+05:30</published><updated>2018-03-15T00:00:00+05:30</updated><id>http://localhost:4000/2018/03/15/test-post</id><content type="html" xml:base="http://localhost:4000/2018/03/15/test-post.html">this is a test post</content><summary type="html">this is a test post</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/03/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-03-14T17:06:28+05:30</published><updated>2018-03-14T17:06:28+05:30</updated><id>http://localhost:4000/jekyll/update/2018/03/14/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/03/14/welcome-to-jekyll.html">You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-16T00:54:59+05:30</updated><id>http://localhost:4000/</id><title type="html">inlovewithcode</title><subtitle>Personal Notes on Python, Oracel DB, Unix OS, Unix Shell Scripting, DB Schema Designing, Oracle Application Development, Python Data Scie - Pandas, Numpy, Matplotlib, Seaborn, Pandas Profiling, Tensorflow, Jupyter Notebook, Zepplin Notebook,  Apache Spark - PySpark, Scala, Dockers, Kubernetics, Elastic Search.</subtitle><entry><title type="html">test-post</title><link href="http://localhost:4000/2018/03/15/test-post.html" rel="alternate" type="text/html" title="test-post" /><published>2018-03-15T00:00:00+05:30</published><updated>2018-03-15T00:00:00+05:30</updated><id>http://localhost:4000/2018/03/15/test-post</id><content type="html" xml:base="http://localhost:4000/2018/03/15/test-post.html">&lt;p&gt;this is a test post&lt;/p&gt;</content><author><name></name></author><summary type="html">this is a test post</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/03/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-03-14T17:06:28+05:30</published><updated>2018-03-14T17:06:28+05:30</updated><id>http://localhost:4000/jekyll/update/2018/03/14/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/03/14/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-Jekyll also offers powerful support for code snippets:
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-{% highlight ruby %}
-def print_hi(name)
-  puts &quot;Hi, #{name}&quot;
-end
-print_hi('Tom')
-#=&gt; prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Python Configuration Files - OS ENV</title><link href="http://localhost:4000/python/2017/12/20/python-configuration-files-os-env.html" rel="alternate" type="text/html" title="Python Configuration Files - OS ENV" /><published>2017-12-20T20:02:13+05:30</published><updated>2017-12-20T20:02:13+05:30</updated><id>http://localhost:4000/python/2017/12/20/python-configuration-files-os-env</id><content type="html" xml:base="http://localhost:4000/python/2017/12/20/python-configuration-files-os-env.html">&lt;h1 id=&quot;python-configuraton-files&quot;&gt;Python Configuraton Files&lt;/h1&gt;
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;h2 id=&quot;configuration-wrt-system-env-variable&quot;&gt;Configuration w.r.t System Env Variable&lt;/h2&gt;
+
+&lt;p&gt;In this example, we shall explore how set a configuration variable that uses env values&lt;/p&gt;
+
+&lt;h5 id=&quot;define-local-variable&quot;&gt;Define Local variable&lt;/h5&gt;
+
+&lt;p&gt;[code lang=”bash”]
+bash3.2$ export THIS_IS_A_TEST_VARIABLE=’/TMP/A/B/123’
+[/code]&lt;/p&gt;
+
+&lt;h5 id=&quot;define-app-config-file&quot;&gt;Define App Config File&lt;/h5&gt;
+
+&lt;p&gt;Check config file&lt;/p&gt;
+
+&lt;p&gt;[code lang=”bash”]
+bash3.2$ cat config.ini
+[/code]&lt;/p&gt;
+
+&lt;p&gt;Output&lt;/p&gt;
+
+&lt;p&gt;[code lang=”python”]
+[DEFAULT]
+test_home=%(THIS_IS_A_TEST_VARIABLE)s&lt;/p&gt;
+
+&lt;p&gt;[test]
+test_1=%(test_home)s/foo.csv
+test_2=%(THIS_IS_A_TEST_VARIABLE)s/bar.csv
+[/code]&lt;/p&gt;
+
+&lt;h5 id=&quot;define-python-config-parser-file&quot;&gt;Define Python Config parser file&lt;/h5&gt;
+
+&lt;p&gt;[code lang=”bash”]
+bash3.2$ cat env_config_test.py
+[/code]&lt;/p&gt;
+
+&lt;p&gt;Content of env_config_test files.&lt;/p&gt;
+
+&lt;p&gt;[code lang=”python”]
+import os
+from ConfigParser import SafeConfigParser&lt;/p&gt;
+
+&lt;p&gt;config = SafeConfigParser(os.environ)
+config.readfp(open(‘config.ini’))&lt;/p&gt;
+
+&lt;p&gt;print(config.get(‘test’, ‘test_1’))
+[/code]&lt;/p&gt;
+
+&lt;p&gt;Test&lt;/p&gt;
+
+&lt;p&gt;[code lang=”bash”]
+bash3.2$ python env_config_test.py                                                                                                                 &lt;br /&gt;
+/TMP/A/B/123/foo.csv
+[/code]&lt;/p&gt;
+
+&lt;p&gt;As you can see, this above config value is used for &lt;code class=&quot;highlighter-rouge&quot;&gt;test_2&lt;/code&gt; config variable.&lt;/p&gt;</content><author><name>guidedmissile</name></author><summary type="html">Python Configuration files that uses OS variables.</summary></entry><entry><title type="html">PSSH - Python3 Issue</title><link href="http://localhost:4000/python/2017/10/06/pssh-python3-issue.html" rel="alternate" type="text/html" title="PSSH - Python3 Issue" /><published>2017-10-06T00:01:32+05:30</published><updated>2017-10-06T00:01:32+05:30</updated><id>http://localhost:4000/python/2017/10/06/pssh-python3-issue</id><content type="html" xml:base="http://localhost:4000/python/2017/10/06/pssh-python3-issue.html">&lt;p&gt;PSSH - Parallel SSH utility has support upto Python3.&lt;/p&gt;
+
+&lt;p&gt;For me, who is using python3.6 had following trouble&lt;/p&gt;
+
+&lt;p&gt;[code lang=”python”]
+SDS-bash3.2$ pssh -version
+Traceback (most recent call last):
+  File &quot;/Users/sampathm/miniconda3/bin/pssh&quot;, line 26, in &amp;lt;module&amp;gt;
+    from psshlib.cli import common_parser, common_defaults
+  File &quot;/Users/sampathm/miniconda3/lib/python3.6/site-packages/psshlib/cli.py&quot;, line 9, in &amp;lt;module&amp;gt;
+    import version
+ModuleNotFoundError: No module named ‘version’
+[/code]&lt;/p&gt;
+
+&lt;p&gt;Due to the version difference in Python3, I guess we don’t have this library avail.&lt;/p&gt;
+
+&lt;h3 id=&quot;quick-fix&quot;&gt;Quick Fix:&lt;/h3&gt;
+
+&lt;p&gt;Open this file error causing &lt;code class=&quot;highlighter-rouge&quot;&gt;cli.py&lt;/code&gt; file from above code, and update to following changes&lt;/p&gt;
+
+&lt;h4 id=&quot;change-1&quot;&gt;change 1&lt;/h4&gt;
+
+&lt;p&gt;Find below code&lt;/p&gt;
+
+&lt;p&gt;[code lang=”text”]
+import version
+[/code]&lt;/p&gt;
+
+&lt;p&gt;Change to below&lt;/p&gt;
+
+&lt;p&gt;[code lang=”text”]
+try:
+  from version import VERSION
+except:
+  print(‘[WARN] Could not import version package in’, &lt;strong&gt;file&lt;/strong&gt;)
+  VERSION=2.3
+[/code]&lt;/p&gt;
+
+&lt;h4 id=&quot;change-2&quot;&gt;change 2&lt;/h4&gt;
+
+&lt;p&gt;Find below code&lt;/p&gt;
+
+&lt;p&gt;[code lang=”text”]
+    parser = optparse.OptionParser(conflict_handler=’resolve’,
+            version=version.VERSION)
+[/code]&lt;/p&gt;
+
+&lt;p&gt;Change to below&lt;/p&gt;
+
+&lt;p&gt;[code lang=”text”]
+    parser = optparse.OptionParser(conflict_handler=’resolve’,
+            version=VERSION)
+[/code]&lt;/p&gt;
+
+&lt;p&gt;Hope you had it working now!&lt;/p&gt;</content><author><name>guidedmissile</name></author><summary type="html">PSSH - Parallel SSH utility has support upto Python3.</summary></entry><entry><title type="html">Find the largest Island - Problem</title><link href="http://localhost:4000/python/2017/08/06/find-the-largest-island-problem.html" rel="alternate" type="text/html" title="Find the largest Island - Problem" /><published>2017-08-06T00:22:49+05:30</published><updated>2017-08-06T00:22:49+05:30</updated><id>http://localhost:4000/python/2017/08/06/find-the-largest-island-problem</id><content type="html" xml:base="http://localhost:4000/python/2017/08/06/find-the-largest-island-problem.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import numpy as np
+import pandas as pd
+
+np.random.seed(42)
+
+MAX_LEN = 5
+
+def recursive_update(x, y):
+    &quot;&quot;&quot;Recursively updates the neightbouring element to 0 and resturn collected count by udating.&quot;&quot;&quot;
+    global data
+    if x  MAX_LEN and y  MAX_LEN:
+        # invalid location
+        return 0
+    count = 0
+    if data[x, y] == 1:
+        data[x, y] = 0
+        count = 1
+        if x + 1  0:
+            count += recursive_update(x - 1, y)
+        if y &amp;gt; 0:
+            count += recursive_update(x, y - 1)
+        if y + 1  .5)
+
+print(data)
+
+for row in range(len(data)):
+    for col in range(len(data[0])):
+        score = recursive_update(row, col) 
+        if score:
+            print((score, data))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>guidedmissile</name></author><summary type="html">import numpy as np import pandas as pd np.random.seed(42) MAX_LEN = 5 def recursive_update(x, y): &quot;&quot;&quot;Recursively updates the neightbouring element to 0 and resturn collected count by udating.&quot;&quot;&quot; global data if x MAX_LEN and y MAX_LEN: # invalid location return 0 count = 0 if data[x, y] == 1: data[x, y] = 0 count = 1 if x + 1 0: count += recursive_update(x - 1, y) if y &amp;gt; 0: count += recursive_update(x, y - 1) if y + 1 .5) print(data) for row in range(len(data)): for col in range(len(data[0])): score = recursive_update(row, col) if score: print((score, data))</summary></entry><entry><title type="html">Monoids in Python - PyMonad</title><link href="http://localhost:4000/python/2017/07/03/monoids-in-python-pymonad.html" rel="alternate" type="text/html" title="Monoids in Python - PyMonad" /><published>2017-07-03T16:26:10+05:30</published><updated>2017-07-03T16:26:10+05:30</updated><id>http://localhost:4000/python/2017/07/03/monoids-in-python-pymonad</id><content type="html" xml:base="http://localhost:4000/python/2017/07/03/monoids-in-python-pymonad.html">&lt;p&gt;Monoid - both a function and a data type.&lt;/p&gt;
+
+&lt;h3 id=&quot;properties&quot;&gt;Properties&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Closure: Takes X data type as input ==&amp;gt; Output is also X data type.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Identity: Has a specific type&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Associativity: Group as you like.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quick Introduction(~10 Min)&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=50qhv8C3s9I&lt;/p&gt;
+
+&lt;p&gt;Short detailed Version(~30 Min)&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=WNwV3wR4JjA&lt;/p&gt;</content><author><name>guidedmissile</name></author><summary type="html">Monoid - both a function and a data type.</summary></entry><entry><title type="html">How to install Hadoop/Pig on Mac?</title><link href="http://localhost:4000/python/2017/03/31/how-to-install-hadooppig-on-mac.html" rel="alternate" type="text/html" title="How to install Hadoop/Pig on Mac?" /><published>2017-03-31T16:38:06+05:30</published><updated>2017-03-31T16:38:06+05:30</updated><id>http://localhost:4000/python/2017/03/31/how-to-install-hadooppig-on-mac</id><content type="html" xml:base="http://localhost:4000/python/2017/03/31/how-to-install-hadooppig-on-mac.html">&lt;p&gt;Source:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;https://getblueshift.com/setting-up-hadoop-2-4-and-pig-0-12-on-osx-locally/&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>guidedmissile</name></author><summary type="html">Source: https://getblueshift.com/setting-up-hadoop-2-4-and-pig-0-12-on-osx-locally/</summary></entry><entry><title type="html">Spark - Simple App with SBT Config, SBT Assembly &amp;amp; some time saving advice</title><link href="http://localhost:4000/ds/2017/03/11/spark-simple-app-with-sbt-config-sbt-assembly-some-time-saving-advice.html" rel="alternate" type="text/html" title="Spark - Simple App with  SBT Config, SBT Assembly &amp; some time saving advice" /><published>2017-03-11T10:53:43+05:30</published><updated>2017-03-11T10:53:43+05:30</updated><id>http://localhost:4000/ds/2017/03/11/spark-simple-app-with-sbt-config-sbt-assembly-some-time-saving-advice</id><content type="html" xml:base="http://localhost:4000/ds/2017/03/11/spark-simple-app-with-sbt-config-sbt-assembly-some-time-saving-advice.html">&lt;p&gt;SBT is an acronym for Simple Build Tool, used for building tools(used for build structure, config management, library management, documentation, and so on). Please check &lt;a href=&quot;http://www.scala-sbt.org/&quot;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;p&gt;Goal of this post is to provide you a basic &lt;code class=&quot;highlighter-rouge&quot;&gt;build.sbt&lt;/code&gt; config and a simple script for testing install Spark.&lt;/p&gt;
+
+&lt;p&gt;I have already set up a Spark(Spark 2.1.0 built for Hadoop 2.7.3) on Mac OS X El Capiton - 10.11.6&lt;/p&gt;
+
+&lt;h2 id=&quot;brew-installations&quot;&gt;Brew Installations&lt;/h2&gt;
+
+&lt;p&gt;If you are a mac user like me, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;brew&lt;/code&gt; to install &lt;code class=&quot;highlighter-rouge&quot;&gt;scala&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;sbt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;[code lang=text]
+SDS-bash3.2$ javac -version
+javac 1.8.0_111
+[/code]&lt;/p&gt;
+
+&lt;h2 id=&quot;scala-details&quot;&gt;Scala Details&lt;/h2&gt;
+
+&lt;p&gt;[code lang=text]
+Scala code runner version 2.12.1 – Copyright 2002-2016, LAMP/EPFL and Lightbend, Inc.
+SDS-bash3.2$
+[/code]&lt;/p&gt;
+
+&lt;h2 id=&quot;spark-details&quot;&gt;Spark Details&lt;/h2&gt;
+
+&lt;p&gt;[code lang=text]
+SDS-bash3.2$ sparkR –version
+Welcome to
+&lt;strong&gt;__ __
+/ __/&lt;/strong&gt; &lt;strong&gt;_ __&lt;/strong&gt;&lt;em&gt;/ /__
+_\ \/ _ \/ _ `/ &lt;strong&gt;/ ‘_/
+/&lt;/strong&gt;&lt;/em&gt;/ .&lt;em&gt;_/_,&lt;/em&gt;/&lt;em&gt;/ /&lt;/em&gt;/_\ version 2.1.0
+/_/&lt;/p&gt;
+
+&lt;p&gt;Using Scala version 2.11.8, Java HotSpot(TM) 64-Bit Server VM, 1.8.0_111
+Branch
+Compiled by user jenkins on 2016-12-16T02:04:48Z
+[/code]&lt;/p&gt;
+
+&lt;h2 id=&quot;sbt-config-for-spark-project&quot;&gt;SBT Config for Spark Project&lt;/h2&gt;
+
+&lt;p&gt;File: build.sbt&lt;/p&gt;
+
+&lt;p&gt;[code lang=text]
+name := “hello”&lt;/p&gt;
+
+&lt;p&gt;version := “1.0”&lt;/p&gt;
+
+&lt;p&gt;scalaVersion := “2.11.7”&lt;/p&gt;
+
+&lt;p&gt;logLevel := Level.Error&lt;/p&gt;
+
+&lt;p&gt;organization := “sampath.sbt.hello”&lt;/p&gt;
+
+&lt;p&gt;logLevel := Level.Error&lt;/p&gt;
+
+&lt;p&gt;libraryDependencies ++= Seq(
+“org.apache.spark” % “spark-core_2.11” % “2.1.0”,
+“org.apache.spark” % “spark-sql_2.11” % “2.1.0”,
+“org.apache.spark” % “spark-mllib_2.11” % “2.1.0” withSources()
+)
+[/code]&lt;/p&gt;
+
+&lt;h2 id=&quot;test-run-withspark&quot;&gt;Test run with Spark&lt;/h2&gt;
+
+&lt;p&gt;File: SimpleApp.scala&lt;/p&gt;
+
+&lt;p&gt;[code lang=text]
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf&lt;/p&gt;
+
+&lt;p&gt;object TextFileOp extends Serializable {
+def filterAB(sc: SparkContext) = {
+val logFile = “build.sbt” // Should be some file on your system
+val logData = sc.textFile(logFile, 2).cache()
+val numAs = logData.filter(line =&amp;gt; line.contains(“a”)).count()
+val numBs = logData.filter(line =&amp;gt; line.contains(“b”)).count()
+println(“===================\n\n”)
+println(s”Lines with a: $numAs, Lines with b: $numBs”)
+println(“===================\n\n”)
+}
+}&lt;/p&gt;
+
+&lt;p&gt;object SimpleApp {
+def main(args: Array[String]) {&lt;/p&gt;
+
+&lt;p&gt;val conf = new SparkConf()
+.setAppName(“Simple Application”)
+.setMaster(“local[2]”)
+val sc = new SparkContext(conf)
+TextFileOp.filterAB(sc)
+sc.stop()
+}
+}
+[/code]&lt;/p&gt;
+
+&lt;h2 id=&quot;sbt-amendments-for-sbt-assembly&quot;&gt;SBT Amendments for SBT Assembly&lt;/h2&gt;
+
+&lt;p&gt;File: build.sbt&lt;/p&gt;
+
+&lt;p&gt;[code lang=text]
+name := “hello”&lt;/p&gt;
+
+&lt;p&gt;version := “1.0”&lt;/p&gt;
+
+&lt;p&gt;scalaVersion := “2.11.7”&lt;/p&gt;
+
+&lt;p&gt;logLevel := Level.Error&lt;/p&gt;
+
+&lt;p&gt;organization := “sampath.sbt.hello”&lt;/p&gt;
+
+&lt;p&gt;logLevel := Level.Error&lt;/p&gt;
+
+&lt;p&gt;libraryDependencies ++= Seq(
+“org.apache.spark” % “spark-core_2.11” % “2.1.0” % “provided”, // changed
+“org.apache.spark” % “spark-sql_2.11” % “2.1.0”,
+“org.apache.spark” % “spark-mllib_2.11” % “2.1.0” withSources()
+)&lt;/p&gt;
+
+&lt;p&gt;// To handle decoupling issues&lt;/p&gt;
+
+&lt;p&gt;assemblyMergeStrategy in assembly := {
+case PathList(“jj2000”, “j2k”, xs @_*) =&amp;gt; MergeStrategy.first
+case x =&amp;gt;
+val oldStrategy = (assemblyMergeStrategy in assembly).value
+oldStrategy(x)
+}&lt;/p&gt;
+
+&lt;p&gt;assemblyMergeStrategy in assembly := {
+case PathList(“META-INF”, xs @ _*) =&amp;gt; MergeStrategy.discard
+case x =&amp;gt; MergeStrategy.first
+}
+[/code]&lt;/p&gt;
+
+&lt;p&gt;File: project.plugins.sbt&lt;/p&gt;
+
+&lt;p&gt;[code lang=text]
+&lt;br /&gt;addSbtPlugin(“com.eed3si9n” % “sbt-assembly” % “0.14.4”)&lt;/p&gt;
+
+&lt;p&gt;addSbtPlugin(“net.virtual-void” % “sbt-dependency-graph” % “0.8.2”)
+[/code]&lt;/p&gt;
+
+&lt;h2 id=&quot;best-advices&quot;&gt;Best Advices:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Major &amp;amp; Minors Version do make their differences. Be mindful while installations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stick to official websites for adding configuration like above plugins.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>guidedmissile</name></author><summary type="html">Using Apache Spark 2.1, Scala 2.12 &amp;amp; Sbt 0.13 build a Simple App for a quick start on Spark Scala</summary></entry><entry><title type="html">Introduction to LDA - Topic Modelling</title><link href="http://localhost:4000/ds/python/2017/02/27/introduction-to-lda-topic-modelling.html" rel="alternate" type="text/html" title="Introduction to LDA - Topic Modelling" /><published>2017-02-27T17:51:55+05:30</published><updated>2017-02-27T17:51:55+05:30</updated><id>http://localhost:4000/ds/python/2017/02/27/introduction-to-lda-topic-modelling</id><content type="html" xml:base="http://localhost:4000/ds/python/2017/02/27/introduction-to-lda-topic-modelling.html">&lt;p&gt;As the title says, below is to provide a simple understanding of what &amp;amp; why Topic Modelling is imported or used for or what to expect from it.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=3mHy4OSyRf0&lt;/p&gt;
+
+&lt;p&gt;click on below images to see a full view&lt;/p&gt;
+
+&lt;p&gt;[gallery ids=”1686,1685,1687” type=”rectangular”]&lt;/p&gt;
+
+&lt;p&gt;Python Packages: &lt;a href=&quot;http://radimrehurek.com/gensim/index.html&quot;&gt;Gensim&lt;/a&gt;&lt;/p&gt;</content><author><name>guidedmissile</name></author><summary type="html">A video tutorial of how and what LDA is for.</summary></entry><entry><title type="html">How to download Kaggle Data Files?</title><link href="http://localhost:4000/python/2017/02/08/how-to-download-kaggle-data-files.html" rel="alternate" type="text/html" title="How to download Kaggle Data Files?" /><published>2017-02-08T00:27:10+05:30</published><updated>2017-02-08T00:27:10+05:30</updated><id>http://localhost:4000/python/2017/02/08/how-to-download-kaggle-data-files</id><content type="html" xml:base="http://localhost:4000/python/2017/02/08/how-to-download-kaggle-data-files.html">&lt;h2 id=&quot;method-1-using-chrome-app--wget&quot;&gt;Method 1: Using Chrome App &amp;amp; wget&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step1: Get Chrome Widget: https://chrome.google.com/webstore/detail/cookietxt-export/lopabhfecdfhgogdbojmaicoicjekelh/related&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step2: Login to you Kaggle HomePage and then check you cookies details(testing above app is if working).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step3: Go to command line where you want to download details and here create a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;cookies&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;step4: run following type of command&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[code lang=bash]
+wget –load-cookies=cookies
+[/code]&lt;/p&gt;
+
+&lt;p&gt;For large files like I have here &lt;code class=&quot;highlighter-rouge&quot;&gt;stage1.7z&lt;/code&gt; from Data Science Bowl 2017 @ Kaggle, I use the following snippet to check how well download is going on,.&lt;/p&gt;
+
+&lt;p&gt;[code lang=bash]
+for i in {1..100}; do sleep 20; ls -l stage1.7z; done
+[/code]&lt;/p&gt;
+
+&lt;h2 id=&quot;meathod2-using-python-script&quot;&gt;Meathod2: Using Python Script&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step1: Get a copy of following file - https://raw.githubusercontent.com/grahamannett/kaggleDownloader/master/main.py&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step2: Run above script to check for help. (I’m planning to work in this project to make it more easy to download tools).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>guidedmissile</name></author><summary type="html">Method 1: Using Chrome App &amp;amp; wget</summary></entry></feed>

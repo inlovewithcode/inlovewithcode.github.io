@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: inlovewithcode
-subtitle: Just another personal IT Blog or Journel of IT Learning.
+subtitle: Just another personal IT blog or Journel of IT Learning.
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Personal Notes on Python, Oracel DB, Unix OS, Unix Shell Scripting, DB Schema Designing, Oracle Application Development, Python Data Scie - Pandas, Numpy, Matplotlib, Seaborn, Pandas Profiling, Tensorflow, Jupyter Notebook, Zepplin Notebook,  Apache Spark - PySpark, Scala, Dockers, Kubernetics, Elastic Search.

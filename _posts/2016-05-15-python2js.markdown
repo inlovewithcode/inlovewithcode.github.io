@@ -1,0 +1,50 @@
+---
+author: guidedmissile
+comments: true
+date: 2016-05-15 08:34:00+00:00
+excerpt: python module for converting py code to js code.
+layout: post
+link: https://inlovewithcode.wordpress.com/2016/05/15/python2js/
+slug: python2js
+title: Python to JS translator
+wordpress_id: 1004
+categories:
+- Python
+tags:
+- JS
+---
+
+Here is a code translator for converting a python code to JS code. After getting so much used to python, it might be a bit difficult to go back to JS Code, but this python module can help us a bit once we get used to it I guess.
+
+
+##### 
+
+
+
+
+##### How to install ?
+
+
+You can use pip to install this Py to JS translator
+
+# `pip install pythonscripttranslator`
+
+
+
+
+##### How does this work?
+
+
+Lets first create a small hello word python script
+
+`echo 'print "Héllo World"' > app.py`
+
+Once you have the script, you just need to do following
+
+`pythonscript < app.py > app.py.js`
+
+
+
+
+
+Source: http://apppyjs.appspot.com/

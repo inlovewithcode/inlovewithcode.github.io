@@ -1,0 +1,33 @@
+---
+author: guidedmissile
+comments: true
+date: 2015-07-15 06:55:07+00:00
+layout: post
+link: https://inlovewithcode.wordpress.com/2015/07/15/pandas/
+slug: pandas
+title: Pandas
+wordpress_id: 558
+categories:
+- DS
+- Python
+---
+
+[![Panda_loadfiles](http://inlovewithcode.files.wordpress.com/2015/07/panda_loadfiles.jpg?w=211)](http://inlovewithcode.files.wordpress.com/2015/07/panda_loadfiles.jpg) [![Panda_variable_convertion](http://inlovewithcode.files.wordpress.com/2015/07/panda_variable_convertion.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_variable_convertion.jpg) [![Panda_transpose_table](http://inlovewithcode.files.wordpress.com/2015/07/panda_transpose_table.jpg?w=286)](http://inlovewithcode.files.wordpress.com/2015/07/panda_transpose_table.jpg) [![Panda_sort_table](http://inlovewithcode.files.wordpress.com/2015/07/panda_sort_table.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_sort_table.jpg)  [![panda_freq_table](http://inlovewithcode.files.wordpress.com/2015/07/panda_freq_table.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_freq_table.jpg) [![panda_sample_data](http://inlovewithcode.files.wordpress.com/2015/07/panda_sample_data.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_sample_data.jpg) [![panda_duplicate_drop_data](http://inlovewithcode.files.wordpress.com/2015/07/panda_duplicate_drop_data.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_duplicate_drop_data.jpg) [![panda_groupby_data](http://inlovewithcode.files.wordpress.com/2015/07/panda_groupby_data.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_groupby_data.jpg) [![panda_missing_data](http://inlovewithcode.files.wordpress.com/2015/07/panda_missing_data.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_missing_data.jpg) [![panda_join_merge_data](http://inlovewithcode.files.wordpress.com/2015/07/panda_join_merge_data.jpg?w=300)](http://inlovewithcode.files.wordpress.com/2015/07/panda_join_merge_data.jpg)
+
+Here is some extra bonus
+
+
+
+	
+  * Python Quirck Ref sheet for lambda & general uses -  [www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
+
+	
+  * NumPy, SciPy and Pandas  [s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf](https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf)
+
+
+
+
+#### What next Tutorial :
+
+
+**Data Slicing, SubSetting, Indexing** [http://datacarpentry.github.io/python-ecology/02-index-slice-subset](http://datacarpentry.github.io/python-ecology/02-index-slice-subset)

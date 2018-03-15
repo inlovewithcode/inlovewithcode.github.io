@@ -1,0 +1,27 @@
+---
+author: guidedmissile
+comments: true
+date: 2013-11-24 13:28:08+00:00
+layout: post
+link: https://inlovewithcode.wordpress.com/2013/11/24/36/
+slug: '36'
+title: No Content Found
+wordpress_id: 36
+categories:
+- Oracle
+tags:
+- SQL
+---
+
+COMPARISON OPERATORS
+
+    
+    =, !=, <> 	    ---- TEST FOR EQUAL, NOT EQUAL, NOT EQUAL 
+    >, >=, <, <= 	---- TEST GREATER THAN, GREATER THAN OR EQUAL TO, LESS THAN, LESS THAN OR EQUAL TO 
+    BETWEEN AND	    ---- CHECK FOR RANGE BETWEEN AND INCLUDING TWO VALUES 
+    LIKE 		    ---- SEARCH FOR A MATCH IN STRING, USING THE WILDCARD SYMBOLS % (ZERO OR MULTIPLE CHARACTERS) OR _ (ONE CHARACTER) 
+    IN ( )          ---- TEST FOR A MATCH IN A SPECIFIED LIST OF VALUES IS NULL, 
+    IS NOT NULL 	---- CHECK WHETHER IS NULL (NO VALUE), IS NOT NULL
+
+
+Group by parameters:  COUNT, MAX, MIN, SUM.

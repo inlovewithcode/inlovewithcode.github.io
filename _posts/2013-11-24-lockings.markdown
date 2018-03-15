@@ -1,0 +1,51 @@
+---
+author: guidedmissile
+comments: true
+date: 2013-11-24 13:21:09+00:00
+layout: post
+link: https://inlovewithcode.wordpress.com/2013/11/24/lockings/
+slug: lockings
+title: LOCKINGS
+wordpress_id: 34
+categories:
+- Oracle
+tags:
+- SQL
+---
+
+ORACLE LOCKINGS
+
+    
+    
+    -- FOR LOCKED OBJECTS
+    SELECT ORACLE_USERNAME
+        OS_USER_NAME,
+        LOCKED_MODE,
+        OBJECT_NAME,
+        OBJECT_TYPE
+    FROM V$LOCKED_OBJECT LO,DBA_OBJECTS DO
+    WHERE LO.OBJECT_ID = DO.OBJECT_ID;
+    
+    -- FOR LOCKED USERS
+    SELECT S.USERNAME,
+        S.SID,
+        L.TYPE,
+        L.LMODE,
+        L.REQUEST
+    FROM V$LOCK L, V$SESSION S
+    WHERE L.SID = S.SID;
+    
+    SELECT USERNAME, 
+        ACCOUNT_STATUS, 
+        LOCK_DATE 
+    FROM DBA_USERS 
+    WHERE USERNAME='ALEX';
+    
+
+
+
+
+Query the "v$locked_object" table for additional information about what is locked. Join with the "dba_objects" table for name and type. The object name indicates what is locked and the username columns identify who has created the lock.
+
+
+

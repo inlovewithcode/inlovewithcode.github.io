@@ -1,0 +1,46 @@
+---
+author: guidedmissile
+comments: false
+date: 2015-06-17 10:20:11+00:00
+layout: post
+link: https://inlovewithcode.wordpress.com/2015/06/17/excel/
+slug: excel
+title: Name Manager
+wordpress_id: 366
+categories:
+- Microsoft Excel
+tags:
+- Excel
+---
+
+If you are a regular Excel user, you often would be feeling that defining some global variables and then incrementing them would be an easier job. Then this Excel "Name Manager" is for you.
+
+Here you can define variable and re-use them anywhere in the sheet.
+
+
+#### So, how to define a global variable in Excel sheet?
+
+
+Using "**Name Manager**", we can define a variable and use it anywhere in the Excel sheet.
+
+Navigation: _Excel > Formula's Tab > Name Manager_
+
+![excel name manager](https://inlovewithcode.files.wordpress.com/2015/06/excel-name-manager.jpg)
+
+Here is how it looks like and here is where you need to define your variables
+
+[![excel name manager GUI](https://inlovewithcode.files.wordpress.com/2015/06/excel-name-manager-gui.png)](https://inlovewithcode.files.wordpress.com/2015/06/excel-name-manager_list_use.jpg)
+
+
+#### How do we use this global variable?
+
+
+Just like we fetch today's date or time in excel sheet, we can use the name given to the variable.
+
+![excel name manager usage](https://inlovewithcode.files.wordpress.com/2015/06/excel-name-manager-usage.jpg)
+
+Are anything more we need to learn about excel - Name Manager?
+
+We can also define a list/column/ of information as variable but I did really like much but here is how we use it.
+
+_If you are having trouble with storing date and while showing in excel sheet, try to change "cell"'s data-type format._

@@ -1,0 +1,60 @@
+---
+author: guidedmissile
+comments: true
+date: 2015-05-07 11:43:13+00:00
+layout: post
+link: https://inlovewithcode.wordpress.com/2015/05/07/django-1-8/
+slug: django-1-8
+title: Django 1.8
+wordpress_id: 268
+categories:
+- Python
+tags:
+- Django
+---
+
+I never knew that something good can also be messy!! I am talking Django 1.8 web framework. After being inspired by my mentor,.. actually got bugged/ bored & tired of sluggish web development portal I have finally decided to take it with Django 1.8
+
+Like any noob I have started off with downloading Django 1.8 possible latest version. May be I should have taken a step back and thought of learning with one stable version which has a lot of tutorials !!
+
+To all those who are very new & want to start-off with Django,. here are some links & tips.
+
+
+
+	
+  * Best is to start-off completing the Django Part 1 to Part 5 tutorial
+
+	
+  * Second best, if you have mentor/tried Django earlier and want to learn a bit more start off with [DjangGirls](http://tutorial.djangogirls.org/en/django_start_project/README.html)
+
+	
+  * Here are some example
+
+	
+    * CRUD - Create Read Update Delete forms & other
+
+	
+      * [https://rayed.com/wordpress/?p=1266](https://rayed.com/wordpress/?p=1266)
+
+	
+      * [http://www.pythondiary.com/tutorials/simple-crud-app-django.html](http://www.pythondiary.com/tutorials/simple-crud-app-django.html)
+
+	
+      * 
+
+
+
+
+
+
+	
+  * Advanced : [https://www.djangoproject.com/start/](https://www.djangoproject.com/start/)
+
+	
+  * 
+
+More on forms
+
+[https://docs.djangoproject.com/en/1.8/topics/forms/modelforms/#model-formsets](https://docs.djangoproject.com/en/1.8/topics/forms/modelforms/#model-formsets)
+
+To create multiple post/articles/requests/users/,.. at once - [https://docs.djangoproject.com/en/1.8/topics/forms/formsets/](https://docs.djangoproject.com/en/1.8/topics/forms/formsets/)
