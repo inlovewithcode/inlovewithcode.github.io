@@ -1,3 +1,0 @@
-bundle exec jekyll serve --incremental
-rm -rf .sass-cache/
-rm .jekyll-metadata

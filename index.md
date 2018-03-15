@@ -1,6 +1,12 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: All Posts
 layout: home
 ---
+
+# Welcome to new site!
+
+Due to some technical (Wordpress markdown rendering) issuess, we had to migrate inlovewithcode.wordpress.com to inlovewithcode.github.io.
+
+Although we have lost a lot valueble content due to issue with Wordpress, we hope this is good for us - as we get to write fresh content and reviews or notes.
+
+Thank you.
