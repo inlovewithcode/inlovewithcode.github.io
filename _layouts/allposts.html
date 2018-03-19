@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="home">
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+
+{{ content }}
+
+
+
+{%- if site.posts.size > 0 -%}
+<table class=".class">
+  {% assign sorted_posts = site.posts | sort:'date' %}
+  {%- for post in sorted_posts reversed -%}
+  <tr>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <td><a class="link" href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a></td>
+    <td>{{ post.date | date: date_format }}</td>
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}
+  </tr>
+  {%- endfor -%}
+</table>
+{%- endif -%}
+
+
+<!-- {% capture posts %}
+  {% for post in site.posts %}
+    |{{ post.title }}#{{ post.url }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedposts = posts | split: '|' | sort %}
+{% for post in sortedposts %}
+    {% assign postitems = post | split: '#' %}
+    <a href="{{ postitems[1] }}">{{ postitems[0] }}</a><br>
+
+    {{ post.date | date: date_format }}
+{% endfor %} -->
+
+
+</div>
