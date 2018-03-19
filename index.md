@@ -1,9 +1,9 @@
 ---
-title: All Posts
+title: Home
 layout: home
+permalink: "/"
 ---
-
-# Welcome to new site!
+<!--this is index.md-->
 
 Due to some technical (Wordpress markdown rendering) issuess, we had to migrate inlovewithcode.wordpress.com to inlovewithcode.github.io.
 

@@ -1,4 +1,5 @@
 # JEKYLL_ENV=production jekyll build # https://jekyllrb.com/docs/configuration/
+echo "Theme Loc:"`bundle show minima`
+rm -rf .sass-cache/ _site/
+rm .jekyll-metadata .DS_Store
 bundle exec jekyll serve --incremental
-rm -rf .sass-cache/
-rm .jekyll-metadata

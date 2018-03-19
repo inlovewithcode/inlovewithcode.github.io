@@ -25,16 +25,23 @@ twitter_username:
 github_username:  inlovewithcode
 
 auto: true
-paginate: 5
+
+# https://teamtreehouse.com/community/jekyllpaginate-gem
+# paginate: 5
+# gems: ['jekyll-paginate']
+# paginate_path: "page:num"
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+
 plugins:
   - jekyll-feed
 
 # Adding pages site
-# include: ['_pages']
+include: ['_pages']
+exclude: ['README.md', 'LICENSE', "*.bak"]
 
 # Exclude showing folling pages
 jekyll_admin:
