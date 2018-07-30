@@ -131,6 +131,18 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 
 ## Persistent Vol
+
+* Persistent Volumes define where Pods can claim Storage for their instances.
+
+## Resource Quotas
+
+* Resource quotas are a tool for administrators to ensure fair share of resources. Cluter level.
+
+## Limit Ranges
+
+* Limit Ranges helps define boundaries on the memory and cpu that Pods can claim on each namespace. This helps cluster operators manage the resources efficiently.
+
+
 # Kubernetes best practice
 
 >    by Sandeep Dinesh (google)
