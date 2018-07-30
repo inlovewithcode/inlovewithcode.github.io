@@ -59,10 +59,6 @@ Advantage - without breaking above tight-coupling**, we improve
 
 
 
-
-
-
-
   * A job creates one or more pods and ensures that a specified number of them successfully terminate.
 
 
@@ -71,13 +67,7 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 
 
-
-
-
 ## Services
-
-
-
 
 
 
@@ -86,13 +76,7 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 
 
-
-
 ## Service Account
-
-
-
-
 
 
 
@@ -100,13 +84,7 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 
 
-
-
 ## Config Maps
-
-
-
-
 
 
 
@@ -114,13 +92,7 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 
 
-
-
 ## Secrets
-
-
-
-
 
 
 
@@ -132,124 +104,16 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 ## Persistent Vol
 
-* Persistent Volumes define where Pods can claim Storage for their instances.
-
-## Resource Quotas
-
-* Resource quotas are a tool for administrators to ensure fair share of resources. Cluter level.
-
-## Limit Ranges
-
-* Limit Ranges helps define boundaries on the memory and cpu that Pods can claim on each namespace. This helps cluster operators manage the resources efficiently.
-
-
-# Kubernetes best practice
-
->    by Sandeep Dinesh (google)
-
-Why? Flexibility creates diversity => diversity can be dis-organised and dis -oriented at times
-
-
-* Don't trust arbitary base images!
-* Use small base images
-     * Builds faster
-     * needs less storage
-     * cold start are fasters
-     * potentially less attack surface - as less no.of packages
-* ** Builder Pattern **
-
-  Code
-    -> Build Containter [compiler / dev deps/uni tests/..]
-      -> Build Artifacts(s)[binaries/static files/bundles/transpiled code]
-        -> Runtime Env [Debug/Monotor Tooling]
-  
-* Use a non-root inside a container
-* Kubernetes can enforce use `runAsNonRoot` & `readOnlyRootFilesystem` # Just adding extra security layers
-* One process per container/pod
-* Dont restart on failure. Crash cleanly instead.
-* Log to stdout & stderr. It goes to stackdriving.
-
-## Deployments
-
-* Use the `record` for easy roll back; for production deployments
-
-        kubectl apply -f deployment.yaml --record
-
-* use plenty of descriptive labels
-* use sidecar containers for proxies, watchers, etc
-* dont use sidecars for bootstrapping
-    * use init container. for one time jobs.
-* dont use `latest` or `no tag`: prefer a git hash
-* readiness and liveness probes are your friend
-    * Kube says that just process is runnng and not running # no so good.
-    * prefer setting Readiness and Liveness.
-    * Readiness - required for production app
-
-## Servies
-
-* Dont always use type : LoadBalancer
-    * Ingress is great. use it. becoz - it can work on multiple load balencing with one single point.
-* type: NodePort can be `good enough`
-
-* Use statics IPs. They are free ! 
-* Mapping external sericves to internal services
-
-
-* User Helm Charts
-* be ready for ` all downstream dependencies are un relioable`
-* use `service mesh` - linkerd/linker & istio/istio - docker for micro-service management
-* make micro-services are not too micro
-* PaaS ? DEIS/ OPENSHIFT/KEL
-
-
-* Use Container Engine
-* Resources, Anti-affinity, node-affinity
-* node taints/tolerations (special hw) (dedicated hosts) etc
-* affinity/anti-affinity (hostname/zone/region)
-* Use Namespaces to split up your cluster
-
-* Role Based Access Control
-* Unlesash the chaos monkey - randomly - delete pods to check the worst case scenario
-
-
-umes
-
-
-
-
-
-
-
   * Persistent Volumes define where Pods can claim Storage for their instances.
 
-
-
-
-
 ## Resource Quotas
-
-
-
-
-
-
 
   * Resource quotas are a tool for administrators to ensure fair share of resources. Cluter level.
 
-
-
-
-
 ## Limit Ranges
 
 
-
-
-
-
-
   * Limit Ranges helps define boundaries on the memory and cpu that Pods can claim on each namespace. This helps cluster operators manage the resources efficiently.
-
 
 
 # Kubernetes best practice
