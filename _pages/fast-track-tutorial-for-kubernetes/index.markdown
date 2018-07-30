@@ -14,6 +14,8 @@ title: Fast track tutorial for Kubernetes learning(actually for lazy/impatients 
 wordpress_id: 2597
 ---
 
+# Kubernetes
+
 Keywords: Pods, Containers, Replica Sets, Service, Job, Deployment, Rollout, Config Maps, Secrets, Persistent Volumes, Resource Management.
 
 _Note: This page is only intended to only provide you a quick understanding of terminology and their meanings and not to be considered as a complete overview of its architecture or design._
@@ -21,50 +23,24 @@ _Note: This page is only intended to only provide you a quick understanding of t
 Source: https://docs.kubernetic.com/
 
 
-
 ## Pods
-
-
-
-
-
-
 
   * Container is a process (or set of processes) that runs in a jailed environment so that it doesn't interfere with other processes. This means from the point of view of the application (process) it has its own IP, disk, cpu, and memory.
 
-
-
   * A Pod is an instance of one or more containers under the same IP. In most cases a Pod contains just one container, in some edge cases a pod contains multiple containers and they are bound by the same IP to create a tight integration.
 
-
-
   * Containers inside the same Pod are co-located (tight-coupling**) (they cannot be spread to different machines), the scale up or down together (they cannot be scaled separately if needed) and share the same network IP (There may exist port conflicts if not designed properly).
-
-
-
 
 
 
 ## Replica Sets
 
 
-
-
-
-
-
   * A Replica Set defines the Pods that needs to run and the number of their replicas.
 Advantage - without breaking above tight-coupling**, we improve
 
 
-
-
-
 ## Deployment
-
-
-
-
 
 
 
@@ -154,7 +130,77 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 
 
-## Persistent Volumes
+## Persistent Vol
+# Kubernetes best practice
+
+>    by Sandeep Dinesh (google)
+
+Why? Flexibility creates diversity => diversity can be dis-organised and dis -oriented at times
+
+
+* Don't trust arbitary base images!
+* Use small base images
+     * Builds faster
+     * needs less storage
+     * cold start are fasters
+     * potentially less attack surface - as less no.of packages
+* ** Builder Pattern **
+
+  Code
+    -> Build Containter [compiler / dev deps/uni tests/..]
+      -> Build Artifacts(s)[binaries/static files/bundles/transpiled code]
+        -> Runtime Env [Debug/Monotor Tooling]
+  
+* Use a non-root inside a container
+* Kubernetes can enforce use `runAsNonRoot` & `readOnlyRootFilesystem` # Just adding extra security layers
+* One process per container/pod
+* Dont restart on failure. Crash cleanly instead.
+* Log to stdout & stderr. It goes to stackdriving.
+
+## Deployments
+
+* Use the `record` for easy roll back; for production deployments
+
+        kubectl apply -f deployment.yaml --record
+
+* use plenty of descriptive labels
+* use sidecar containers for proxies, watchers, etc
+* dont use sidecars for bootstrapping
+    * use init container. for one time jobs.
+* dont use `latest` or `no tag`: prefer a git hash
+* readiness and liveness probes are your friend
+    * Kube says that just process is runnng and not running # no so good.
+    * prefer setting Readiness and Liveness.
+    * Readiness - required for production app
+
+## Servies
+
+* Dont always use type : LoadBalancer
+    * Ingress is great. use it. becoz - it can work on multiple load balencing with one single point.
+* type: NodePort can be `good enough`
+
+* Use statics IPs. They are free ! 
+* Mapping external sericves to internal services
+
+
+* User Helm Charts
+* be ready for ` all downstream dependencies are un relioable`
+* use `service mesh` - linkerd/linker & istio/istio - docker for micro-service management
+* make micro-services are not too micro
+* PaaS ? DEIS/ OPENSHIFT/KEL
+
+
+* Use Container Engine
+* Resources, Anti-affinity, node-affinity
+* node taints/tolerations (special hw) (dedicated hosts) etc
+* affinity/anti-affinity (hostname/zone/region)
+* Use Namespaces to split up your cluster
+
+* Role Based Access Control
+* Unlesash the chaos monkey - randomly - delete pods to check the worst case scenario
+
+
+umes
 
 
 
@@ -191,5 +237,75 @@ Example: run 10 jobs but only 3 in parallel at a time
 
 
   * Limit Ranges helps define boundaries on the memory and cpu that Pods can claim on each namespace. This helps cluster operators manage the resources efficiently.
+
+
+
+# Kubernetes best practice
+
+>    by Sandeep Dinesh (google)
+
+Why? Flexibility creates diversity => diversity can be dis-organised and dis -oriented at times
+
+
+* Don't trust arbitary base images!
+* Use small base images
+     * Builds faster
+     * needs less storage
+     * cold start are fasters
+     * potentially less attack surface - as less no.of packages
+* ** Builder Pattern **
+
+  Code
+    -> Build Containter [compiler / dev deps/uni tests/..]
+      -> Build Artifacts(s)[binaries/static files/bundles/transpiled code]
+        -> Runtime Env [Debug/Monotor Tooling]
+  
+* Use a non-root inside a container
+* Kubernetes can enforce use `runAsNonRoot` & `readOnlyRootFilesystem` # Just adding extra security layers
+* One process per container/pod
+* Dont restart on failure. Crash cleanly instead.
+* Log to stdout & stderr. It goes to stackdriving.
+
+## Deployments
+
+* Use the `record` for easy roll back; for production deployments
+
+        kubectl apply -f deployment.yaml --record
+
+* use plenty of descriptive labels
+* use sidecar containers for proxies, watchers, etc
+* dont use sidecars for bootstrapping
+    * use init container. for one time jobs.
+* dont use `latest` or `no tag`: prefer a git hash
+* readiness and liveness probes are your friend
+    * Kube says that just process is runnng and not running # no so good.
+    * prefer setting Readiness and Liveness.
+    * Readiness - required for production app
+
+## Servies
+
+* Dont always use type : LoadBalancer
+    * Ingress is great. use it. becoz - it can work on multiple load balencing with one single point.
+* type: NodePort can be `good enough`
+
+* Use statics IPs. They are free ! 
+* Mapping external sericves to internal services
+
+
+* User Helm Charts
+* be ready for ` all downstream dependencies are un relioable`
+* use `service mesh` - linkerd/linker & istio/istio - docker for micro-service management
+* make micro-services are not too micro
+* PaaS ? DEIS/ OPENSHIFT/KEL
+
+
+* Use Container Engine
+* Resources, Anti-affinity, node-affinity
+* node taints/tolerations (special hw) (dedicated hosts) etc
+* affinity/anti-affinity (hostname/zone/region)
+* Use Namespaces to split up your cluster
+
+* Role Based Access Control
+* Unlesash the chaos monkey - randomly - delete pods to check the worst case scenario
 
 
