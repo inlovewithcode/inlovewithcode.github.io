@@ -70,5 +70,5 @@ Part of string module
        --scopes https://www.googleapis.com/auth/devstorage.read_write \
        --node-labels=deploy=newapp1node
 
-
+    gcloud container node-pools describe mynodepoolname --cluster mycluster --zone us-central1-b
 
