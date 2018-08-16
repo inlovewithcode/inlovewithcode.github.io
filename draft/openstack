@@ -1,0 +1,12 @@
+# openstack
+
+* open source cloud computing platform
+
+Architecture of Openstack
+
+Keystone - identity
+Nova - vm mgmt
+GLance - virtual mgmt
+Swift - Object storage
+Cinder -
+
