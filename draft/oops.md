@@ -49,3 +49,57 @@
 ## Data Hiding
 
 * attributes with a double underscore prefix
+
+
+## Magic Functions/ Dunder methods
+
+* __init__ - constructor
+* __repr__ - representation for developer(prefer to show case all contructor variables)
+* __str__ - print output for a object(generic, more user friendly to read)
+* __add__ - you can add objects
+* __len__ - you can create a lenght of the object
+
+
+## others
+
+* `@property` - converts a method to be accessed as a variable
+* `@<property-variable>.setter` - helps you assign a variable to a property
+* `@<property-variable>.deleter` - helps you delete a variable to a property
+
+```
+class Employee:
+
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+
+    @property
+    def email(self):
+        return '{}.{}@email.com'.format(self.first, self.last)
+
+    @property
+    def fullname(self):
+        return '{} {}'.format(self.first, self.last)
+
+    @property.setter
+    def fullname(self, name):
+        self.first, self.last = name.split(' ')
+
+    @property.deleter
+    def fullname(self):
+        self.first, self.last = None, None
+        print('Delete Name !')
+
+emp_1 = Employee('John', 'Smith')
+
+print(emp_1.first)
+
+# Note: email is a property
+print(emp_1.email)
+print(emp_1.fullname)
+
+# Note: using property 
+emp_1.full_name = 'Adon Hoe'
+print(emp_1.fullname)
+
+```
