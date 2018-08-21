@@ -13,8 +13,9 @@
 def add_these(a: int, b: int) -> int:
     return a + b
     
-add_these(1, 2)
-add_these('1', '2')
+if __name__ == '__main__':
+    print(add_these(1, 2))
+    print(add_these('1', '2'))
 ```
 
 Terminal
