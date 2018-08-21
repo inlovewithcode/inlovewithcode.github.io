@@ -4,6 +4,7 @@
 * An optional feature in python, and even when used is not a strict enforcement.
 * Reveals issues when checked with python pip package tool `mypy`
 * Helps to do quick unit-tests.
+* you can use `typing` module for importing few types
 
 ```
 #! python3
