@@ -6,6 +6,14 @@ Q. How to compare two float?
 
 use `math.isclose` function to compare them.
 
+Q. Git push asking for login creds everytime?
+
+Do the following, next before you do git push.
+
+    git config credential.helper store
+
+
+
 Q. Is there a equivalent to java static main in Python?
 
 Guido's best practices for writing [**Main** method](https://www.artima.com/weblogs/viewpost.jsp?thread=4829)
