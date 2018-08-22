@@ -2,6 +2,10 @@ Q!. Python - 2.7 Reference pages
 
 [http://rgruet.free.fr/#QuickRef](http://rgruet.free.fr/#QuickRef)
 
+Q. How to compare two float?
+
+use `math.isclose` function to compare them.
+
 Q. Is there a equivalent to java static main in Python?
 
 Guido's best practices for writing [**Main** method](https://www.artima.com/weblogs/viewpost.jsp?thread=4829)
