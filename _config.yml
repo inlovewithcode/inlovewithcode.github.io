@@ -40,7 +40,7 @@ plugins:
   - jekyll-feed
 
 # Adding pages site
-include: ['_pages']
+include: ['_pages', 'notebooks']
 exclude: ['README.md', 'LICENSE', "*.bak"]
 
 # Exclude showing folling pages
